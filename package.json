@@ -1,0 +1,12 @@
+{
+  "name": "grow-shrink-animation",
+  "version": "0.1.0",
+  "description": "grow-shrink animation - canvas, request animation frame, set interval.",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
