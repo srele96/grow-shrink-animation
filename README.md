@@ -2,6 +2,42 @@
 
 Grow-Shrink animation - canvas, request animation frame, set interval.
 
+## A really basic game development
+
+### The drawing
+
+Request animation frame is synchronized with screen refresh rate.
+
+That is the perfect place to redraw the game.
+
+Request animation frame is called right before the screen repaints.
+
+Do the calculations outside and call the draw functions in the draw loop.
+
+### The logic
+
+The perfect place for logic is outside the draw loop.
+
+A nice idea for the start is to create an object and add a draw method to it.
+
+Add a behavior to the object.
+
+Bind the behavior to the player keyboard or mouse events.
+
+Make the behavior modify the object state.
+
+### The result
+
+Because the object has the state, it can be used in the draw loop.
+
+The state update will reflect in the canvas.
+
+### A tip
+
+At some point you will need to use more complex mechanisms.
+
+There are canvas libraries that are worth trying out.
+
 ## Code Explanation:
 
 ### Behavior explanation:
